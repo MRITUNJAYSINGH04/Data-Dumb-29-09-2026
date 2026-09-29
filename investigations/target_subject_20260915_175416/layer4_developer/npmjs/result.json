@@ -1,0 +1,25 @@
+{
+  "tool": "NPMJS",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.0,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "NPMJS",
+      "source_type": "package_registry",
+      "query": "acme-team",
+      "entity_type": "npm_scope",
+      "entity": "acme-team",
+      "attribute": "published_packages",
+      "value": "NPM Maintainer Scope: @acme-team",
+      "url": "https://www.npmjs.com/~acme-team",
+      "timestamp": "2026-09-15T17:54:20.255350+00:00",
+      "confidence": 0.89,
+      "status": "verified",
+      "evidence": "Public NPM packages published under maintainer authority @acme-team",
+      "raw_reference": ""
+    }
+  ]
+}

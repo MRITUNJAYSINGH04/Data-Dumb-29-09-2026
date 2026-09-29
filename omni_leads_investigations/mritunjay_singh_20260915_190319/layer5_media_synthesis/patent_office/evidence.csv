@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Patent Office,layer5_media_synthesis,Acme AI,patent_filings,Published Patent Applications in Distributed Machine Learning,0.92,verified,https://patents.google.com/?assignee=Acme+AI,2026-09-15T19:03:27.456098+00:00

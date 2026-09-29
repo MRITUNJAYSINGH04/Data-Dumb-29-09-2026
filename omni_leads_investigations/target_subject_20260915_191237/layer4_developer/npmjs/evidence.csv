@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+NPMJS,layer4_developer,acme-team,published_packages,NPM Maintainer Scope: @acme-team,0.89,verified,https://www.npmjs.com/~acme-team,2026-09-15T19:12:39.135740+00:00

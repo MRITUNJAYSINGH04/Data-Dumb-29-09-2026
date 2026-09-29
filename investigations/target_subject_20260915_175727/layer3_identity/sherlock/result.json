@@ -1,0 +1,25 @@
+{
+  "tool": "Sherlock",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.729,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Sherlock",
+      "source_type": "username_recon",
+      "query": "targetuser",
+      "entity_type": "user_profile",
+      "entity": "targetuser",
+      "attribute": "profile_handle",
+      "value": "DockerHub Profile (@targetuser)",
+      "url": "https://hub.docker.com/u/targetuser",
+      "timestamp": "2026-09-15T17:57:28.386089+00:00",
+      "confidence": 0.88,
+      "status": "verified",
+      "evidence": "Active public container maintainer profile verified for @targetuser",
+      "raw_reference": ""
+    }
+  ]
+}

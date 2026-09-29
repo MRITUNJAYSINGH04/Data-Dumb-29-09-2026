@@ -1,0 +1,40 @@
+{
+  "tool": "Google News RSS",
+  "layer": "layer5_media_synthesis",
+  "layer_display": "Layer 5: Media, News, & Synthesis",
+  "status": "success",
+  "execution_time_seconds": 4.537,
+  "findings_count": 2,
+  "signals": [
+    {
+      "source": "Google News RSS",
+      "source_type": "realtime_press",
+      "query": "Christ College Pune",
+      "entity_type": "news_syndication",
+      "entity": "Christ College Pune",
+      "attribute": "realtime_news",
+      "value": "Video: Father Confronts And Beats Student For Harassing Daughter At Pune College - NDTV",
+      "url": "",
+      "timestamp": "2026-09-15T17:52:25.256624+00:00",
+      "confidence": 0.94,
+      "status": "verified",
+      "evidence": "Published syndication article: Video: Father Confronts And Beats Student For Harassing Daughter At Pune College - NDTV",
+      "raw_reference": ""
+    },
+    {
+      "source": "Google News RSS",
+      "source_type": "realtime_press",
+      "query": "Christ College Pune",
+      "entity_type": "news_syndication",
+      "entity": "Christ College Pune",
+      "attribute": "realtime_news",
+      "value": "Christ University MBA Fees Structure 2026: Campus-wise Fees, Hostel Costs & Placements - P",
+      "url": "",
+      "timestamp": "2026-09-15T17:52:25.257623+00:00",
+      "confidence": 0.94,
+      "status": "verified",
+      "evidence": "Published syndication article: Christ University MBA Fees Structure 2026: Campus-wise Fees, Hostel Costs & Placements - PW",
+      "raw_reference": ""
+    }
+  ]
+}

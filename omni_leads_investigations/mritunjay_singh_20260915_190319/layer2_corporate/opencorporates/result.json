@@ -1,0 +1,25 @@
+{
+  "tool": "OpenCorporates",
+  "layer": "layer2_corporate",
+  "layer_display": "Layer 2: Corporate & Business Intelligence",
+  "status": "success",
+  "execution_time_seconds": 2.261,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "OpenCorporates",
+      "source_type": "legal_entity",
+      "query": "Acme AI",
+      "entity_type": "legal_company",
+      "entity": "Acme AI",
+      "attribute": "company_registration",
+      "value": "Registered Corporate Entity (Acme AI)",
+      "url": "https://opencorporates.com/companies?q=Acme AI",
+      "timestamp": "2026-09-15T19:03:31.251798+00:00",
+      "confidence": 0.88,
+      "status": "verified",
+      "evidence": "Public company registration ledger indexed",
+      "raw_reference": ""
+    }
+  ]
+}

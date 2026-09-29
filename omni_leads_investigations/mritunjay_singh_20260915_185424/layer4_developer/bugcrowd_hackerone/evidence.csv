@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Bugcrowd/HackerOne,layer4_developer,Acme AI,responsible_disclosure,Public Vulnerability Disclosure Policy (VDP) Present,0.9,verified,https://hackerone.com/acmeai,2026-09-15T18:54:32.380820+00:00

@@ -1,0 +1,142 @@
+version: '3.8'
+
+services:
+  # 1. PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: uie-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: uie_user
+      POSTGRES_PASSWORD: uie_secure_password
+      POSTGRES_DB: uie_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U uie_user -d uie_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # 2. Redis Message Broker & Cache
+  redis:
+    image: redis:7-alpine
+    container_name: uie-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # 3. Self-Hosted SearXNG Search Layer
+  searxng:
+    image: searxng/searxng:latest
+    container_name: uie-searxng
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./docker/searxng/settings.yml:/etc/searxng/settings.yml:ro
+    environment:
+      - SEARXNG_BASE_URL=http://localhost:8080/
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - SETGID
+      - SETUID
+
+  # 4. Backend API Core (FastAPI)
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: uie-backend
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      searxng:
+        condition: service_started
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://uie_user:uie_secure_password@postgres:5432/uie_db
+      - REDIS_URL=redis://redis:6379/0
+      - SEARXNG_URL=http://searxng:8080
+      - SECRET_KEY=uie-super-secret-production-grade-encryption-key-2026
+      - AI_PROVIDER=heuristic
+      - DATA_RETENTION_DAYS=30
+    ports:
+      - "8000:8000"
+
+  # 5. OSINT Background Task Worker
+  worker:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: uie-worker
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://uie_user:uie_secure_password@postgres:5432/uie_db
+      - REDIS_URL=redis://redis:6379/0
+      - SEARXNG_URL=http://searxng:8080
+      - SECRET_KEY=uie-super-secret-production-grade-encryption-key-2026
+    command: ["python", "-m", "backend.app.services.investigation_service"]
+
+  # 6. Next.js Dark Intelligence Dashboard
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: uie-frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000/api
+    ports:
+      - "3000:3000"
+
+  # Optional 7. Neo4j Graph Layer
+  neo4j:
+    image: neo4j:5-community
+    container_name: uie-neo4j
+    restart: unless-stopped
+    profiles: ["graph"]
+    ports:
+      - "7474:7474" # Web Browser UI
+      - "7687:7687" # Bolt Protocol
+    environment:
+      - NEO4J_AUTH=neo4j/uie_neo4j_password
+    volumes:
+      - neo4j_data:/data
+
+  # Optional 8. Ollama Local LLM Runner
+  ollama:
+    image: ollama/ollama:latest
+    container_name: uie-ollama
+    restart: unless-stopped
+    profiles: ["local-ai"]
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+
+volumes:
+  postgres_data:
+  redis_data:
+  neo4j_data:
+  ollama_data:

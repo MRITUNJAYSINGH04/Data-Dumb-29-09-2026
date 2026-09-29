@@ -1,0 +1,25 @@
+{
+  "tool": "ZoomInfo Proxy",
+  "layer": "layer2_corporate",
+  "layer_display": "Layer 2: Corporate & Business Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.473,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "ZoomInfo Proxy",
+      "source_type": "b2b_directory",
+      "query": "Enterprise Target",
+      "entity_type": "business_directory",
+      "entity": "Enterprise Target",
+      "attribute": "annual_revenue_range",
+      "value": "$10M - $25M Estimated Revenue",
+      "url": "https://www.zoominfo.com/c/enterprise-target",
+      "timestamp": "2026-09-15T19:12:37.510873+00:00",
+      "confidence": 0.84,
+      "status": "likely",
+      "evidence": "Public commercial business directory estimates annual revenue bracket for Enterprise Target",
+      "raw_reference": ""
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Censys,layer1_infrastructure,target.com,ssl_issuer,Let's Encrypt Authority / DigiCert Global CA,0.97,verified,https://search.censys.io/certificates?q=target.com,2026-09-15T19:12:39.108063+00:00

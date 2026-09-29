@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Blackbird,layer3_identity,techleader,hacker_profile,Hacker News Author (id=techleader),0.87,likely,https://news.ycombinator.com/user?id=techleader,2026-09-15T19:03:27.491071+00:00

@@ -1,0 +1,25 @@
+{
+  "tool": "Wayback Machine",
+  "layer": "layer5_media_synthesis",
+  "layer_display": "Layer 5: Media, News, & Synthesis",
+  "status": "success",
+  "execution_time_seconds": 4.476,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Wayback Machine",
+      "source_type": "web_archive",
+      "query": "acme.ai",
+      "entity_type": "historical_snapshot",
+      "entity": "acme.ai",
+      "attribute": "oldest_archive_timestamp",
+      "value": "Archived Snapshot from 20240617",
+      "url": "http://web.archive.org/web/20240617081004/http://acme.ai/",
+      "timestamp": "2026-09-15T17:55:37.229183+00:00",
+      "confidence": 0.98,
+      "status": "verified",
+      "evidence": "Wayback Machine confirmed historical domain presence dating back to 20240617081004",
+      "raw_reference": ""
+    }
+  ]
+}

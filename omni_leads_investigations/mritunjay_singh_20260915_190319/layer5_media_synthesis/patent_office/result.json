@@ -1,0 +1,25 @@
+{
+  "tool": "Patent Office",
+  "layer": "layer5_media_synthesis",
+  "layer_display": "Layer 5: Media, News, & Synthesis",
+  "status": "success",
+  "execution_time_seconds": 0.809,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Patent Office",
+      "source_type": "intellectual_property",
+      "query": "Acme AI",
+      "entity_type": "intellectual_property",
+      "entity": "Acme AI",
+      "attribute": "patent_filings",
+      "value": "Published Patent Applications in Distributed Machine Learning",
+      "url": "https://patents.google.com/?assignee=Acme+AI",
+      "timestamp": "2026-09-15T19:03:27.456098+00:00",
+      "confidence": 0.92,
+      "status": "verified",
+      "evidence": "Public patent office database confirms proprietary intellectual property assigned to Acme AI",
+      "raw_reference": ""
+    }
+  ]
+}

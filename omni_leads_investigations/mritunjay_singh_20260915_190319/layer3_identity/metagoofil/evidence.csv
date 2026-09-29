@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Metagoofil,layer3_identity,acme.ai,document_author_software,macOS / Google Docs / Adobe InDesign,0.86,likely,https://acme.ai/whitepapers,2026-09-15T19:03:30.140120+00:00

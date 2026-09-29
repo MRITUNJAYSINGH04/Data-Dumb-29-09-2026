@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+ZoomInfo Proxy,layer2_corporate,Acme AI,annual_revenue_range,$10M - $25M Estimated Revenue,0.84,likely,https://www.zoominfo.com/c/acme-ai,2026-09-15T18:54:32.398314+00:00

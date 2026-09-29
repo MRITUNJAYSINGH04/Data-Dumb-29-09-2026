@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Docker Hub,layer4_developer,acme-cloud,docker_namespace,hub.docker.com/u/acme-cloud,0.92,verified,https://hub.docker.com/u/acme-cloud,2026-09-15T19:12:37.963994+00:00

@@ -1,0 +1,25 @@
+{
+  "tool": "Docker Hub",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.477,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Docker Hub",
+      "source_type": "container_registry",
+      "query": "acme-cloud",
+      "entity_type": "container_image",
+      "entity": "acme-cloud",
+      "attribute": "docker_namespace",
+      "value": "hub.docker.com/u/acme-cloud",
+      "url": "https://hub.docker.com/u/acme-cloud",
+      "timestamp": "2026-09-15T19:12:37.963994+00:00",
+      "confidence": 0.92,
+      "status": "verified",
+      "evidence": "Public cloud container image repository namespace verified for enterprise entity acme-cloud",
+      "raw_reference": ""
+    }
+  ]
+}

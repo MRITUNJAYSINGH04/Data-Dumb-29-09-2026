@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Docker Hub,layer4_developer,Acme AI,docker_namespace,hub.docker.com/u/acmeai,0.92,verified,https://hub.docker.com/u/acmeai,2026-09-15T18:54:32.398314+00:00

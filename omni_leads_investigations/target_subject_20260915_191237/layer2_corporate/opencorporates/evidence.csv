@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+OpenCorporates,layer2_corporate,Acme AI Corp,company_registration,Registered Corporate Entity (Acme AI Corp),0.88,verified,https://opencorporates.com/companies?q=Acme AI Corp,2026-09-15T19:12:41.528515+00:00

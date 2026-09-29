@@ -1,0 +1,25 @@
+{
+  "tool": "Packagist",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.837,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Packagist",
+      "source_type": "php_composer",
+      "query": "Christ College Pune",
+      "entity_type": "composer_package",
+      "entity": "Christ College Pune",
+      "attribute": "packagist_vendor",
+      "value": "Vendor Namespace: christ-college-pune",
+      "url": "https://packagist.org/packages/christ-college-pune/",
+      "timestamp": "2026-09-15T17:52:23.812786+00:00",
+      "confidence": 0.87,
+      "status": "likely",
+      "evidence": "Open source package namespace verified on official Packagist composer registry",
+      "raw_reference": ""
+    }
+  ]
+}

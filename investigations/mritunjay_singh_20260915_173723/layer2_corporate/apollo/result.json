@@ -1,0 +1,25 @@
+{
+  "tool": "Apollo",
+  "layer": "layer2_corporate",
+  "layer_display": "Layer 2: Corporate & Business Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.379,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Apollo",
+      "source_type": "lead_qualification",
+      "query": "Acme AI",
+      "entity_type": "buyer_persona",
+      "entity": "Acme AI",
+      "attribute": "decision_maker_archetype",
+      "value": "High Priority Target: CTO / Head of Engineering",
+      "url": "https://app.apollo.io/#/companies?name=Acme AI",
+      "timestamp": "2026-09-15T17:37:32.175308+00:00",
+      "confidence": 0.91,
+      "status": "verified",
+      "evidence": "Persona mapping confirms decision-making authority in Software / Cloud department",
+      "raw_reference": ""
+    }
+  ]
+}

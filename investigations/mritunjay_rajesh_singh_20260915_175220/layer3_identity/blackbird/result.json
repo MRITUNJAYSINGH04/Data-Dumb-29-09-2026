@@ -1,0 +1,25 @@
+{
+  "tool": "Blackbird",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.887,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Blackbird",
+      "source_type": "username_search",
+      "query": "myself_immortal",
+      "entity_type": "public_presence",
+      "entity": "myself_immortal",
+      "attribute": "hacker_profile",
+      "value": "Hacker News Author (id=myself_immortal)",
+      "url": "https://news.ycombinator.com/user?id=myself_immortal",
+      "timestamp": "2026-09-15T17:52:22.054438+00:00",
+      "confidence": 0.87,
+      "status": "likely",
+      "evidence": "Public discussion submissions and comment karma indexed for username @myself_immortal",
+      "raw_reference": ""
+    }
+  ]
+}

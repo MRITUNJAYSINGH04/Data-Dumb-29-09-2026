@@ -1,0 +1,3 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+DNSRecord,layer1_infrastructure,target.com,mail_exchanger,5 mxa-0020ab02.gslb.pphosted.com.,0.99,verified,https://dns.google/resolve?name=target.com&type=MX,2026-09-15T19:03:30.657256+00:00
+DNSRecord,layer1_infrastructure,target.com,mail_exchanger,5 mxb-0020ab02.gslb.pphosted.com.,0.99,verified,https://dns.google/resolve?name=target.com&type=MX,2026-09-15T19:03:30.657256+00:00

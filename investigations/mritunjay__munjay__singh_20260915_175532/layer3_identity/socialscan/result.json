@@ -1,0 +1,25 @@
+{
+  "tool": "SocialScan",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.961,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "SocialScan",
+      "source_type": "handle_collision",
+      "query": "Mritunjay (Munjay) Singh",
+      "entity_type": "service_collision",
+      "entity": "Mritunjay (Munjay) Singh",
+      "attribute": "registered_service",
+      "value": "Active account registered on Reddit & GitHub",
+      "url": "https://github.com/Mritunjay (Munjay) Singh",
+      "timestamp": "2026-09-15T17:55:34.252494+00:00",
+      "confidence": 0.92,
+      "status": "verified",
+      "evidence": "Identifier collision confirmed across developer ecosystem for handle Mritunjay (Munjay) Singh",
+      "raw_reference": ""
+    }
+  ]
+}

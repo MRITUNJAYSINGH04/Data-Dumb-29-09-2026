@@ -1,0 +1,25 @@
+{
+  "tool": "Twint Archive",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.004,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Twint Archive",
+      "source_type": "social_archive",
+      "query": "Acme AI",
+      "entity_type": "microblog_history",
+      "entity": "Acme AI",
+      "attribute": "public_announcements",
+      "value": "Active public product updates tagged #Acme AI",
+      "url": "https://twitter.com/Acme AI",
+      "timestamp": "2026-09-15T17:37:33.287087+00:00",
+      "confidence": 0.82,
+      "status": "possible",
+      "evidence": "Public web indexing identified community mentions and product discourse regarding #Acme AI",
+      "raw_reference": ""
+    }
+  ]
+}

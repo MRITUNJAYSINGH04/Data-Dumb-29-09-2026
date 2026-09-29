@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+SocialScan,layer3_identity,lead_user,registered_service,Active account registered on Reddit & GitHub,0.92,verified,https://github.com/lead_user,2026-09-15T19:12:39.108063+00:00

@@ -1,0 +1,25 @@
+{
+  "tool": "GitLab",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.726,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "GitLab",
+      "source_type": "code_intelligence",
+      "query": "techteam",
+      "entity_type": "gitlab_user",
+      "entity": "techteam",
+      "attribute": "gitlab_presence",
+      "value": "GitLab Contributor (@techteam)",
+      "url": "https://gitlab.com/techteam",
+      "timestamp": "2026-09-15T17:57:28.386089+00:00",
+      "confidence": 0.86,
+      "status": "likely",
+      "evidence": "Public GitLab project maintainer and pipeline activity indexed for @techteam",
+      "raw_reference": ""
+    }
+  ]
+}

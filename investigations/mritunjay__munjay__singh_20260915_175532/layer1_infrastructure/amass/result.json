@@ -1,0 +1,25 @@
+{
+  "tool": "Amass",
+  "layer": "layer1_infrastructure",
+  "layer_display": "Layer 1: Infrastructure & Perimeter Recon",
+  "status": "success",
+  "execution_time_seconds": 0.946,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Amass",
+      "source_type": "network_mapping",
+      "query": "target.io",
+      "entity_type": "autonomous_system",
+      "entity": "target.io",
+      "attribute": "asn_routing",
+      "value": "AS13335 (Cloudflare Global Network)",
+      "url": "https://bgp.he.net/dns/target.io",
+      "timestamp": "2026-09-15T17:55:33.276735+00:00",
+      "confidence": 0.94,
+      "status": "verified",
+      "evidence": "Routing prefix and BGP announcement verified on global backbone for target.io",
+      "raw_reference": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tool": "Hacker News",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 2.953,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Hacker News",
+      "source_type": "tech_community",
+      "query": "Mritunjay (Munjay) Singh",
+      "entity_type": "hacker_news_story",
+      "entity": "Mritunjay (Munjay) Singh",
+      "attribute": "hn_discussion",
+      "value": "Show HN / Launch Thread regarding Mritunjay (Munjay) Singh",
+      "url": "https://hn.algolia.com/?q=Mritunjay (Munjay) Singh",
+      "timestamp": "2026-09-15T17:55:37.205741+00:00",
+      "confidence": 0.85,
+      "status": "likely",
+      "evidence": "Algolia Hacker News index records active founder discussions for Mritunjay (Munjay) Singh",
+      "raw_reference": ""
+    }
+  ]
+}

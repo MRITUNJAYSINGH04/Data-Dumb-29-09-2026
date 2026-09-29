@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Wikipedia/Wikidata,layer5_media_synthesis,Knowledge Target,wikidata_entity,Structured Entity Record for Knowledge Target,0.88,verified,https://www.wikidata.org/wiki/Special:Search?search=Knowledge+Target,2026-09-15T19:12:42.119661+00:00

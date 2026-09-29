@@ -1,0 +1,25 @@
+{
+  "tool": "Docker Hub",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.006,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Docker Hub",
+      "source_type": "container_registry",
+      "query": "Christ College Pune",
+      "entity_type": "container_image",
+      "entity": "Christ College Pune",
+      "attribute": "docker_namespace",
+      "value": "hub.docker.com/u/christcollegepune",
+      "url": "https://hub.docker.com/u/christcollegepune",
+      "timestamp": "2026-09-15T17:52:23.831273+00:00",
+      "confidence": 0.92,
+      "status": "verified",
+      "evidence": "Public cloud container image repository namespace verified for enterprise entity christcollegepune",
+      "raw_reference": ""
+    }
+  ]
+}

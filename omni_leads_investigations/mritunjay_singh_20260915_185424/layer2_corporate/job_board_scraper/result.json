@@ -1,0 +1,25 @@
+{
+  "tool": "Job Board Scraper",
+  "layer": "layer2_corporate",
+  "layer_display": "Layer 2: Corporate & Business Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.388,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Job Board Scraper",
+      "source_type": "hiring_signals",
+      "query": "Acme AI",
+      "entity_type": "hiring_signal",
+      "entity": "Acme AI",
+      "attribute": "open_positions",
+      "value": "Active Engineering Hiring: Senior AI Engineer, DevOps Architect",
+      "url": "https://company.com/careers",
+      "timestamp": "2026-09-15T18:54:32.001821+00:00",
+      "confidence": 0.89,
+      "status": "verified",
+      "evidence": "Open technical vacancies signal enterprise investment in Kubernetes, Python, and scalable AI infrastructure",
+      "raw_reference": ""
+    }
+  ]
+}

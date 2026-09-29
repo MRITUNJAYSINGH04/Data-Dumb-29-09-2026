@@ -1,0 +1,25 @@
+{
+  "tool": "SEC EDGAR",
+  "layer": "layer2_corporate",
+  "layer_display": "Layer 2: Corporate & Business Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.005,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "SEC EDGAR",
+      "source_type": "public_filings",
+      "query": "Acme AI",
+      "entity_type": "sec_filing",
+      "entity": "Acme AI",
+      "attribute": "regulatory_status",
+      "value": "Active Commercial Corporation / Exempt Offering Disclosure",
+      "url": "https://www.sec.gov/edgar/searchedgar/companysearch?company=Acme AI",
+      "timestamp": "2026-09-15T18:54:34.869669+00:00",
+      "confidence": 0.93,
+      "status": "verified",
+      "evidence": "SEC EDGAR public corporate entity database record checked for Acme AI",
+      "raw_reference": ""
+    }
+  ]
+}

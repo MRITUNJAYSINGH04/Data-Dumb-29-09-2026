@@ -1,0 +1,25 @@
+{
+  "tool": "Blackbird",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.507,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Blackbird",
+      "source_type": "username_search",
+      "query": "Mritunjay (Munjay) Singh",
+      "entity_type": "public_presence",
+      "entity": "Mritunjay (Munjay) Singh",
+      "attribute": "hacker_profile",
+      "value": "Hacker News Author (id=Mritunjay (Munjay) Singh)",
+      "url": "https://news.ycombinator.com/user?id=Mritunjay (Munjay) Singh",
+      "timestamp": "2026-09-15T17:55:33.253287+00:00",
+      "confidence": 0.87,
+      "status": "likely",
+      "evidence": "Public discussion submissions and comment karma indexed for username @Mritunjay (Munjay) Singh",
+      "raw_reference": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tool": "Twint Archive",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 1.323,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Twint Archive",
+      "source_type": "social_archive",
+      "query": "myself_immortal",
+      "entity_type": "microblog_history",
+      "entity": "myself_immortal",
+      "attribute": "public_announcements",
+      "value": "Active public product updates tagged #myself_immortal",
+      "url": "https://twitter.com/myself_immortal",
+      "timestamp": "2026-09-15T17:52:20.723278+00:00",
+      "confidence": 0.82,
+      "status": "possible",
+      "evidence": "Public web indexing identified community mentions and product discourse regarding #myself_immortal",
+      "raw_reference": ""
+    }
+  ]
+}

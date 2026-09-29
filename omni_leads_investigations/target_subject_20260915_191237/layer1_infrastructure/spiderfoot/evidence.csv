@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+SpiderFoot,layer1_infrastructure,target.net,perimeter_footprint,Mapped external asset footprint for target.net,0.88,likely,https://www.spiderfoot.net/lookup/target.net,2026-09-15T19:12:39.108063+00:00

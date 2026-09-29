@@ -1,0 +1,25 @@
+{
+  "tool": "Twint Archive",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 1.487,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Twint Archive",
+      "source_type": "social_archive",
+      "query": "Mritunjay (Munjay) Singh",
+      "entity_type": "microblog_history",
+      "entity": "Mritunjay (Munjay) Singh",
+      "attribute": "public_announcements",
+      "value": "Active public product updates tagged #Mritunjay (Munjay) Singh",
+      "url": "https://twitter.com/Mritunjay (Munjay) Singh",
+      "timestamp": "2026-09-15T17:55:36.224183+00:00",
+      "confidence": 0.82,
+      "status": "possible",
+      "evidence": "Public web indexing identified community mentions and product discourse regarding #Mritunjay (Munjay) Singh",
+      "raw_reference": ""
+    }
+  ]
+}

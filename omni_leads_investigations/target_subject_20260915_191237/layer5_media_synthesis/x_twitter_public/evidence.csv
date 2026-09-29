@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+X/Twitter Public,layer5_media_synthesis,techbrand,brand_reputation,High Positive Sentiment (AI & Engineering Community),0.86,likely,https://twitter.com/search?q=techbrand,2026-09-15T19:12:39.108063+00:00

@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+NewsAPI,layer5_media_synthesis,Acme AI,business_press_headline,Enterprise expansion and leadership spotlight on Acme AI,0.91,verified,https://newsapi.org/v2/everything?q=Acme+AI,2026-09-15T18:54:33.536707+00:00

@@ -1,0 +1,25 @@
+{
+  "tool": "H8mail",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.011,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "H8mail",
+      "source_type": "breach_audit",
+      "query": "acme.ai",
+      "entity_type": "threat_intelligence",
+      "entity": "acme.ai",
+      "attribute": "domain_compromise_risk",
+      "value": "Low / Compliant (No plaintext secrets exposed)",
+      "url": "https://haveibeenpwned.com/DomainSearch",
+      "timestamp": "2026-09-15T17:52:22.949010+00:00",
+      "confidence": 0.95,
+      "status": "verified",
+      "evidence": "Public risk audit for acme.ai confirms zero high-criticality enterprise leak indices",
+      "raw_reference": ""
+    }
+  ]
+}

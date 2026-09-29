@@ -1,0 +1,25 @@
+{
+  "tool": "Holehe",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.382,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Holehe",
+      "source_type": "email_presence",
+      "query": "executive@acme.ai",
+      "entity_type": "gravatar_profile",
+      "entity": "executive@acme.ai",
+      "attribute": "gravatar_presence",
+      "value": "Gravatar Profile Registered",
+      "url": "https://gravatar.com/29ed7ccd0fed2e20e4988f0d8a7c8864",
+      "timestamp": "2026-09-15T17:37:33.668421+00:00",
+      "confidence": 0.96,
+      "status": "verified",
+      "evidence": "Public profile avatar and email hash confirmed active on global Gravatar network",
+      "raw_reference": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tool": "Metagoofil",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.462,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Metagoofil",
+      "source_type": "metadata_extraction",
+      "query": "acme.ai",
+      "entity_type": "document_metadata",
+      "entity": "acme.ai",
+      "attribute": "document_author_software",
+      "value": "macOS / Google Docs / Adobe InDesign",
+      "url": "https://acme.ai/whitepapers",
+      "timestamp": "2026-09-15T17:54:20.271420+00:00",
+      "confidence": 0.86,
+      "status": "likely",
+      "evidence": "Public corporate PDF whitepapers reveal internal document workflow creation software on acme.ai",
+      "raw_reference": ""
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+SecurityTrails,layer1_infrastructure,target.io,domain_age,Established Domain (> 3 Years Active History),0.93,verified,https://securitytrails.com/domain/target.io/dns,2026-09-15T19:12:40.331426+00:00

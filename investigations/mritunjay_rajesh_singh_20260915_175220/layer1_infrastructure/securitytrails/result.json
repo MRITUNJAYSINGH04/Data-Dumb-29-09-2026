@@ -1,0 +1,25 @@
+{
+  "tool": "SecurityTrails",
+  "layer": "layer1_infrastructure",
+  "layer_display": "Layer 1: Infrastructure & Perimeter Recon",
+  "status": "success",
+  "execution_time_seconds": 0.887,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "SecurityTrails",
+      "source_type": "historical_dns",
+      "query": "target.io",
+      "entity_type": "historical_dns",
+      "entity": "target.io",
+      "attribute": "domain_age",
+      "value": "Established Domain (> 3 Years Active History)",
+      "url": "https://securitytrails.com/domain/target.io/dns",
+      "timestamp": "2026-09-15T17:52:22.054438+00:00",
+      "confidence": 0.93,
+      "status": "verified",
+      "evidence": "Historical DNS audit confirms stable zone file delegation and historical nameserver continuity for target.io",
+      "raw_reference": ""
+    }
+  ]
+}

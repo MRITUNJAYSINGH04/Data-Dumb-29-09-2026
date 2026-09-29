@@ -1,0 +1,25 @@
+{
+  "tool": "Hunter",
+  "layer": "layer2_corporate",
+  "layer_display": "Layer 2: Corporate & Business Intelligence",
+  "status": "success",
+  "execution_time_seconds": 1.156,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Hunter",
+      "source_type": "email_pattern",
+      "query": "acme.ai",
+      "entity_type": "email_format",
+      "entity": "acme.ai",
+      "attribute": "corporate_email_pattern",
+      "value": "{first}.{last}@acme.ai",
+      "url": "https://hunter.io/search/acme.ai",
+      "timestamp": "2026-09-15T19:03:28.995671+00:00",
+      "confidence": 0.96,
+      "status": "verified",
+      "evidence": "Verified prevailing corporate email convention: {first}.{last}@acme.ai (Deliverability confidence 94%)",
+      "raw_reference": ""
+    }
+  ]
+}

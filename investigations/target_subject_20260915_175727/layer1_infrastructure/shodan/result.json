@@ -1,0 +1,25 @@
+{
+  "tool": "Shodan",
+  "layer": "layer1_infrastructure",
+  "layer_display": "Layer 1: Infrastructure & Perimeter Recon",
+  "status": "success",
+  "execution_time_seconds": 0.846,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Shodan",
+      "source_type": "host_intelligence",
+      "query": "target.net",
+      "entity_type": "exposed_service",
+      "entity": "target.net",
+      "attribute": "open_ports",
+      "value": "80/TCP (HTTP), 443/TCP (HTTPS, TLS 1.3)",
+      "url": "https://www.shodan.io/search?query=hostname%3Atarget.net",
+      "timestamp": "2026-09-15T17:57:27.314118+00:00",
+      "confidence": 0.91,
+      "status": "verified",
+      "evidence": "Verified public Internet endpoints responding with valid SSL/TLS 1.3 encryption on target.net",
+      "raw_reference": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tool": "Clearbit",
+  "layer": "layer2_corporate",
+  "layer_display": "Layer 2: Corporate & Business Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.489,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Clearbit",
+      "source_type": "firmographics",
+      "query": "acme.ai",
+      "entity_type": "company_meta",
+      "entity": "acme.ai",
+      "attribute": "company_firmographics",
+      "value": "B2B SaaS Enterprise (51-200 employees)",
+      "url": "https://logo.clearbit.com/acme.ai",
+      "timestamp": "2026-09-15T17:56:57.717802+00:00",
+      "confidence": 0.94,
+      "status": "verified",
+      "evidence": "Domain firmographic attributes confirm active B2B software model and brand assets on acme.ai",
+      "raw_reference": ""
+    }
+  ]
+}

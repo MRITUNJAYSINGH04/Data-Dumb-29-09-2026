@@ -1,0 +1,25 @@
+{
+  "tool": "Censys",
+  "layer": "layer1_infrastructure",
+  "layer_display": "Layer 1: Infrastructure & Perimeter Recon",
+  "status": "success",
+  "execution_time_seconds": 1.783,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Censys",
+      "source_type": "certificate_intelligence",
+      "query": "target.com",
+      "entity_type": "tls_certificate",
+      "entity": "target.com",
+      "attribute": "ssl_issuer",
+      "value": "Let's Encrypt Authority / DigiCert Global CA",
+      "url": "https://search.censys.io/certificates?q=target.com",
+      "timestamp": "2026-09-15T17:54:18.367901+00:00",
+      "confidence": 0.97,
+      "status": "verified",
+      "evidence": "Cryptographic certificate transparency chain validated for root and wildcards of target.com",
+      "raw_reference": ""
+    }
+  ]
+}

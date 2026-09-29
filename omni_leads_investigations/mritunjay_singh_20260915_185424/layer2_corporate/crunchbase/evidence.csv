@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Crunchbase,layer2_corporate,Acme AI,funding_stage,Series A / Growth ($12.5M Estimated),0.88,likely,https://www.crunchbase.com/organization/acme-ai,2026-09-15T18:54:32.380820+00:00

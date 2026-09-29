@@ -1,0 +1,25 @@
+{
+  "tool": "Google News RSS",
+  "layer": "layer5_media_synthesis",
+  "layer_display": "Layer 5: Media, News, & Synthesis",
+  "status": "success",
+  "execution_time_seconds": 2.231,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Google News RSS",
+      "source_type": "realtime_press",
+      "query": "Mritunjay (Munjay) Singh",
+      "entity_type": "news_syndication",
+      "entity": "Mritunjay (Munjay) Singh",
+      "attribute": "realtime_news",
+      "value": "Axiscades Engineering Firm Announces Move to Tucson - Real Estate Daily News",
+      "url": "",
+      "timestamp": "2026-09-15T17:55:37.452278+00:00",
+      "confidence": 0.94,
+      "status": "verified",
+      "evidence": "Published syndication article: Axiscades Engineering Firm Announces Move to Tucson - Real Estate Daily News",
+      "raw_reference": ""
+    }
+  ]
+}

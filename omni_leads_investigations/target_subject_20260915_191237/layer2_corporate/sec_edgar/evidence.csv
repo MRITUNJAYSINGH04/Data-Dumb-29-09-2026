@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+SEC EDGAR,layer2_corporate,Acme Technologies,regulatory_status,Active Commercial Corporation / Exempt Offering Disclosure,0.93,verified,https://www.sec.gov/edgar/searchedgar/companysearch?company=Acme Technologies,2026-09-15T19:12:39.136259+00:00

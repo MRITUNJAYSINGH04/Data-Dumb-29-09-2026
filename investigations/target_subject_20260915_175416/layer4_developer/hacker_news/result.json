@@ -1,0 +1,25 @@
+{
+  "tool": "Hacker News",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 3.696,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Hacker News",
+      "source_type": "tech_community",
+      "query": "startup",
+      "entity_type": "hacker_news_story",
+      "entity": "startup",
+      "attribute": "hn_community_mention",
+      "value": "Alberta startup sells no-tech tractors for half price",
+      "url": "https://news.ycombinator.com/item?id=47865868",
+      "timestamp": "2026-09-15T17:54:21.208743+00:00",
+      "confidence": 0.93,
+      "status": "verified",
+      "evidence": "Y Combinator community discussion thread with 779 comments: 'Alberta startup sells no-tech tractors for half price'",
+      "raw_reference": ""
+    }
+  ]
+}

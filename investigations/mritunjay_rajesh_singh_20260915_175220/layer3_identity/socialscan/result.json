@@ -1,0 +1,25 @@
+{
+  "tool": "SocialScan",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.838,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "SocialScan",
+      "source_type": "handle_collision",
+      "query": "myself_immortal",
+      "entity_type": "service_collision",
+      "entity": "myself_immortal",
+      "attribute": "registered_service",
+      "value": "Active account registered on Reddit & GitHub",
+      "url": "https://github.com/myself_immortal",
+      "timestamp": "2026-09-15T17:52:23.364767+00:00",
+      "confidence": 0.92,
+      "status": "verified",
+      "evidence": "Identifier collision confirmed across developer ecosystem for handle myself_immortal",
+      "raw_reference": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tool": "Maigret",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.402,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Maigret",
+      "source_type": "profile_dossier",
+      "query": "mritunjaysingh",
+      "entity_type": "community_presence",
+      "entity": "mritunjaysingh",
+      "attribute": "community_profile",
+      "value": "Kaggle Contributor (@mritunjaysingh)",
+      "url": "https://www.kaggle.com/mritunjaysingh",
+      "timestamp": "2026-09-15T17:40:13.491964+00:00",
+      "confidence": 0.85,
+      "status": "likely",
+      "evidence": "Public data science and AI community account verified for @mritunjaysingh",
+      "raw_reference": ""
+    }
+  ]
+}

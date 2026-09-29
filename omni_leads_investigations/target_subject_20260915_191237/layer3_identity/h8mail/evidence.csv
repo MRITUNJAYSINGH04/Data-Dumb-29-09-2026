@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+H8mail,layer3_identity,acme.ai,domain_compromise_risk,Low / Compliant (No plaintext secrets exposed),0.95,verified,https://haveibeenpwned.com/DomainSearch,2026-09-15T19:12:37.998931+00:00

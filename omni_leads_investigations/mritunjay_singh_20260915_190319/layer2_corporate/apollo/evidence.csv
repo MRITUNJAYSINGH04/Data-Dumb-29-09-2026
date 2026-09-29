@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Apollo,layer2_corporate,Acme AI,decision_maker_archetype,High Priority Target: CTO / Head of Engineering,0.91,verified,https://app.apollo.io/#/companies?name=Acme AI,2026-09-15T19:03:28.568712+00:00

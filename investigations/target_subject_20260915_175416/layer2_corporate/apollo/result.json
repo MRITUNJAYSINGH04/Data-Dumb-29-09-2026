@@ -1,0 +1,25 @@
+{
+  "tool": "Apollo",
+  "layer": "layer2_corporate",
+  "layer_display": "Layer 2: Corporate & Business Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.0,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Apollo",
+      "source_type": "lead_qualification",
+      "query": "Key Account",
+      "entity_type": "buyer_persona",
+      "entity": "Key Account",
+      "attribute": "decision_maker_archetype",
+      "value": "High Priority Target: cto",
+      "url": "https://app.apollo.io/#/companies?name=Key Account",
+      "timestamp": "2026-09-15T17:54:20.255350+00:00",
+      "confidence": 0.91,
+      "status": "verified",
+      "evidence": "Persona mapping confirms decision-making authority in saas department",
+      "raw_reference": ""
+    }
+  ]
+}

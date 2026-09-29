@@ -1,0 +1,25 @@
+{
+  "tool": "Pastebin",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.005,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Pastebin",
+      "source_type": "public_code_snippets",
+      "query": "Acme AI",
+      "entity_type": "public_paste",
+      "entity": "Acme AI",
+      "attribute": "code_snippets",
+      "value": "Clean / No Sensitive Code Leaks Detected",
+      "url": "https://pastebin.com/search?q=Acme AI",
+      "timestamp": "2026-09-15T18:54:34.878103+00:00",
+      "confidence": 0.96,
+      "status": "verified",
+      "evidence": "Public paste metadata check confirms absence of proprietary code leaks or configuration files for Acme AI",
+      "raw_reference": ""
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+WAFW00F,layer1_infrastructure,target.com,edge_protection,Cloudflare Enterprise WAF / DDoS Mitigation,0.95,verified,https://target.com,2026-09-15T19:03:27.456098+00:00

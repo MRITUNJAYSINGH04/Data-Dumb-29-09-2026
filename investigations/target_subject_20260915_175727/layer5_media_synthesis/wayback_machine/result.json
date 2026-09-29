@@ -1,0 +1,25 @@
+{
+  "tool": "Wayback Machine",
+  "layer": "layer5_media_synthesis",
+  "layer_display": "Layer 5: Media, News, & Synthesis",
+  "status": "success",
+  "execution_time_seconds": 8.065,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Wayback Machine",
+      "source_type": "web_archive",
+      "query": "acme.ai",
+      "entity_type": "historical_snapshot",
+      "entity": "acme.ai",
+      "attribute": "archive_record",
+      "value": "Internet Archive Entry for acme.ai",
+      "url": "https://web.archive.org/web/*/https://acme.ai",
+      "timestamp": "2026-09-15T17:57:35.376472+00:00",
+      "confidence": 0.92,
+      "status": "verified",
+      "evidence": "Domain presence preserved in Internet Archive index",
+      "raw_reference": ""
+    }
+  ]
+}

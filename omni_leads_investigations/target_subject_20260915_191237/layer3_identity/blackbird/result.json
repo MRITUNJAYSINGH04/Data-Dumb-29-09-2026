@@ -1,0 +1,25 @@
+{
+  "tool": "Blackbird",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.474,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Blackbird",
+      "source_type": "username_search",
+      "query": "techleader",
+      "entity_type": "public_presence",
+      "entity": "techleader",
+      "attribute": "hacker_profile",
+      "value": "Hacker News Author (id=techleader)",
+      "url": "https://news.ycombinator.com/user?id=techleader",
+      "timestamp": "2026-09-15T19:12:37.510873+00:00",
+      "confidence": 0.87,
+      "status": "likely",
+      "evidence": "Public discussion submissions and comment karma indexed for username @techleader",
+      "raw_reference": ""
+    }
+  ]
+}

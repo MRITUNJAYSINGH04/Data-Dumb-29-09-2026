@@ -1,0 +1,25 @@
+{
+  "tool": "Packagist",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 1.05,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Packagist",
+      "source_type": "php_composer",
+      "query": "Acme AI",
+      "entity_type": "composer_package",
+      "entity": "Acme AI",
+      "attribute": "packagist_vendor",
+      "value": "Vendor Namespace: acme-ai",
+      "url": "https://packagist.org/packages/acme-ai/",
+      "timestamp": "2026-09-15T19:03:27.491071+00:00",
+      "confidence": 0.87,
+      "status": "likely",
+      "evidence": "Open source package namespace verified on official Packagist composer registry",
+      "raw_reference": ""
+    }
+  ]
+}

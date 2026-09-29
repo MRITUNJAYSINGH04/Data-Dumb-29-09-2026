@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Shodan,layer1_infrastructure,target.net,open_ports,"80/TCP (HTTP), 443/TCP (HTTPS, TLS 1.3)",0.91,verified,https://www.shodan.io/search?query=hostname%3Atarget.net,2026-09-15T19:12:37.998931+00:00

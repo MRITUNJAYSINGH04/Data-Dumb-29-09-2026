@@ -1,0 +1,211 @@
+[19:03:19.491] [INFO] [Omni-Grid Controller] Workspace initialized: omni_leads_investigations/mritunjay_singh_20260915_190319
+[19:03:19.536] [INFO] [Planner] Initiated 50 tactical vectors with concurrent thread pool
+[19:03:19.545] [INFO] [Snov.io] Executing vector against target inputs
+[19:03:19.547] [INFO] [PyPI] Executing vector against target inputs
+[19:03:19.549] [INFO] [Job Board Scraper] Executing vector against target inputs
+[19:03:19.551] [INFO] [theHarvester] Executing vector against target inputs
+[19:03:19.553] [INFO] [Bugcrowd/HackerOne] Executing vector against target inputs
+[19:03:19.555] [INFO] [Holehe] Executing vector against target inputs
+[19:03:19.559] [INFO] [WAFW00F] Executing vector against target inputs
+[19:03:19.560] [INFO] [Common Crawl] Executing vector against target inputs
+[19:03:19.561] [INFO] [Legal Gazette] Executing vector against target inputs
+[19:03:19.562] [INFO] [Twint Archive] Executing vector against target inputs
+[19:03:19.565] [INFO] [Crunchbase] Executing vector against target inputs
+[19:03:19.566] [INFO] [Patent Office] Executing vector against target inputs
+[19:03:20.035] [SUCCESS] [Snov.io] Dumped result.json & evidence.csv (1 signals, 0.488s)
+[19:03:20.040] [SUCCESS] [PyPI] Dumped result.json & evidence.csv (1 signals, 0.491s)
+[19:03:20.043] [SUCCESS] [Job Board Scraper] Dumped result.json & evidence.csv (1 signals, 0.49s)
+[19:03:20.045] [SUCCESS] [Bugcrowd/HackerOne] Dumped result.json & evidence.csv (1 signals, 0.491s)
+[19:03:20.050] [SUCCESS] [Holehe] Dumped result.json & evidence.csv (1 signals, 0.491s)
+[19:03:20.054] [SUCCESS] [WAFW00F] Dumped result.json & evidence.csv (1 signals, 0.493s)
+[19:03:20.056] [SUCCESS] [Common Crawl] Dumped result.json & evidence.csv (1 signals, 0.494s)
+[19:03:20.057] [SUCCESS] [Legal Gazette] Dumped result.json & evidence.csv (1 signals, 0.495s)
+[19:03:20.060] [SUCCESS] [Twint Archive] Dumped result.json & evidence.csv (1 signals, 0.496s)
+[19:03:20.063] [SUCCESS] [Crunchbase] Dumped result.json & evidence.csv (1 signals, 0.496s)
+[19:03:20.067] [SUCCESS] [Patent Office] Dumped result.json & evidence.csv (1 signals, 0.498s)
+[19:03:20.069] [INFO] [ZoomInfo Proxy] Executing vector against target inputs
+[19:03:20.070] [INFO] [Docker Hub] Executing vector against target inputs
+[19:03:20.071] [INFO] [Sherlock] Executing vector against target inputs
+[19:03:20.074] [INFO] [Sublist3r] Executing vector against target inputs
+[19:03:20.075] [INFO] [Packagist] Executing vector against target inputs
+[19:03:20.077] [INFO] [Blackbird] Executing vector against target inputs
+[19:03:20.079] [INFO] [Shodan] Executing vector against target inputs
+[19:03:20.080] [INFO] [Wikipedia/Wikidata] Executing vector against target inputs
+[19:03:20.082] [INFO] [GitHub] Executing vector against target inputs
+[19:03:20.084] [INFO] [Clearbit] Executing vector against target inputs
+[19:03:20.086] [INFO] [God's Eye AI Synthesis] Executing vector against target inputs
+[19:03:20.988] [SUCCESS] [ZoomInfo Proxy] Dumped result.json & evidence.csv (1 signals, 0.915s)
+[19:03:20.990] [SUCCESS] [Docker Hub] Dumped result.json & evidence.csv (1 signals, 0.917s)
+[19:03:20.991] [SUCCESS] [Sherlock] Dumped result.json & evidence.csv (1 signals, 0.919s)
+[19:03:20.994] [SUCCESS] [Sublist3r] Dumped result.json & evidence.csv (1 signals, 0.917s)
+[19:03:20.997] [SUCCESS] [Packagist] Dumped result.json & evidence.csv (1 signals, 0.92s)
+[19:03:21.000] [SUCCESS] [Blackbird] Dumped result.json & evidence.csv (1 signals, 0.92s)
+[19:03:21.004] [SUCCESS] [Shodan] Dumped result.json & evidence.csv (1 signals, 0.922s)
+[19:03:21.007] [SUCCESS] [Clearbit] Dumped result.json & evidence.csv (1 signals, 0.92s)
+[19:03:21.008] [SUCCESS] [God's Eye AI Synthesis] Dumped result.json & evidence.csv (1 signals, 0.921s)
+[19:03:21.009] [INFO] [Apollo] Executing vector against target inputs
+[19:03:21.010] [INFO] [Hacker News] Executing vector against target inputs
+[19:03:21.012] [INFO] [Maigret] Executing vector against target inputs
+[19:03:21.014] [INFO] [Amass] Executing vector against target inputs
+[19:03:21.017] [INFO] [NewsAPI] Executing vector against target inputs
+[19:03:21.019] [INFO] [H8mail] Executing vector against target inputs
+[19:03:21.020] [INFO] [Censys] Executing vector against target inputs
+[19:03:21.022] [INFO] [X/Twitter Public] Executing vector against target inputs
+[19:03:21.024] [INFO] [GitLab] Executing vector against target inputs
+[19:03:21.443] [SUCCESS] [Apollo] Dumped result.json & evidence.csv (1 signals, 0.43s)
+[19:03:21.446] [SUCCESS] [Maigret] Dumped result.json & evidence.csv (1 signals, 0.431s)
+[19:03:21.449] [SUCCESS] [Amass] Dumped result.json & evidence.csv (1 signals, 0.432s)
+[19:03:21.452] [SUCCESS] [NewsAPI] Dumped result.json & evidence.csv (1 signals, 0.433s)
+[19:03:21.454] [SUCCESS] [H8mail] Dumped result.json & evidence.csv (1 signals, 0.434s)
+[19:03:21.457] [SUCCESS] [Censys] Dumped result.json & evidence.csv (1 signals, 0.434s)
+[19:03:21.458] [SUCCESS] [X/Twitter Public] Dumped result.json & evidence.csv (1 signals, 0.436s)
+[19:03:21.460] [SUCCESS] [GitLab] Dumped result.json & evidence.csv (1 signals, 0.436s)
+[19:03:21.462] [INFO] [Hunter] Executing vector against target inputs
+[19:03:21.463] [INFO] [OpenCorporates] Executing vector against target inputs
+[19:03:21.465] [INFO] [StackOverflow] Executing vector against target inputs
+[19:03:21.466] [INFO] [SocialScan] Executing vector against target inputs
+[19:03:21.468] [INFO] [DNSRecord] Executing vector against target inputs
+[19:03:21.469] [INFO] [Google News RSS] Executing vector against target inputs
+[19:03:21.470] [INFO] [Metagoofil] Executing vector against target inputs
+[19:03:21.471] [INFO] [SecurityTrails] Executing vector against target inputs
+[19:03:22.849] [SUCCESS] [Hunter] Dumped result.json & evidence.csv (1 signals, 1.385s)
+[19:03:22.853] [SUCCESS] [StackOverflow] Dumped result.json & evidence.csv (1 signals, 1.385s)
+[19:03:22.858] [SUCCESS] [SocialScan] Dumped result.json & evidence.csv (1 signals, 1.389s)
+[19:03:22.861] [SUCCESS] [Metagoofil] Dumped result.json & evidence.csv (1 signals, 1.388s)
+[19:03:22.864] [SUCCESS] [SecurityTrails] Dumped result.json & evidence.csv (1 signals, 1.39s)
+[19:03:22.866] [INFO] [Reddit] Executing vector against target inputs
+[19:03:22.868] [INFO] [NPMJS] Executing vector against target inputs
+[19:03:22.869] [INFO] [SEC EDGAR] Executing vector against target inputs
+[19:03:22.872] [INFO] [SpiderFoot] Executing vector against target inputs
+[19:03:22.874] [INFO] [Pastebin] Executing vector against target inputs
+[19:03:22.879] [SUCCESS] [Reddit] Dumped result.json & evidence.csv (1 signals, 0.011s)
+[19:03:22.881] [SUCCESS] [NPMJS] Dumped result.json & evidence.csv (1 signals, 0.011s)
+[19:03:22.884] [SUCCESS] [SEC EDGAR] Dumped result.json & evidence.csv (1 signals, 0.013s)
+[19:03:22.888] [SUCCESS] [SpiderFoot] Dumped result.json & evidence.csv (1 signals, 0.014s)
+[19:03:22.894] [SUCCESS] [Pastebin] Dumped result.json & evidence.csv (1 signals, 0.015s)
+[19:03:22.897] [INFO] [Wayback Machine] Executing vector against target inputs
+[19:03:22.899] [INFO] [GHunt] Executing vector against target inputs
+[19:03:22.901] [INFO] [Fierce] Executing vector against target inputs
+[19:03:22.902] [INFO] [SkyMem] Executing vector against target inputs
+[19:03:22.904] [INFO] [BuiltWith] Executing vector against target inputs
+[19:03:23.353] [SUCCESS] [GHunt] Dumped result.json & evidence.csv (1 signals, 0.451s)
+[19:03:23.358] [SUCCESS] [Fierce] Dumped result.json & evidence.csv (1 signals, 0.454s)
+[19:03:23.364] [SUCCESS] [SkyMem] Dumped result.json & evidence.csv (1 signals, 0.457s)
+[19:03:23.372] [SUCCESS] [BuiltWith] Dumped result.json & evidence.csv (1 signals, 0.461s)
+[19:03:23.520] [SUCCESS] [DNSRecord] Dumped result.json & evidence.csv (2 signals, 2.05s)
+[19:03:23.681] [SUCCESS] [Wikipedia/Wikidata] Dumped result.json & evidence.csv (1 signals, 3.599s)
+[19:03:23.759] [SUCCESS] [GitHub] Dumped result.json & evidence.csv (1 signals, 3.673s)
+[19:03:24.254] [SUCCESS] [Hacker News] Dumped result.json & evidence.csv (1 signals, 3.24s)
+[19:03:24.288] [SUCCESS] [theHarvester] Dumped result.json & evidence.csv (1 signals, 4.736s)
+[19:03:24.429] [SUCCESS] [OpenCorporates] Dumped result.json & evidence.csv (1 signals, 2.963s)
+[19:03:24.510] [SUCCESS] [Google News RSS] Dumped result.json & evidence.csv (2 signals, 3.039s)
+[19:03:26.485] [SUCCESS] [Wayback Machine] Dumped result.json & evidence.csv (1 signals, 3.585s)
+[19:03:26.499] [INFO] [Entity Resolution] Fusing 52 multi-vector signals into identity clusters
+[19:03:26.507] [INFO] [Claim Verifier] Deduplicating signals and auditing claims against cross-source provenance
+[19:03:26.590] [SUCCESS] [Lead Synthesis] Extracted 1 high-confidence executive leads
+[19:03:26.620] [SUCCESS] [Omni-Grid Controller] Pipeline completed successfully. All artifacts and CSV ledgers ready.
+[19:03:26.635] [INFO] [Planner] Initiated 50 tactical vectors with concurrent thread pool
+[19:03:26.645] [INFO] [Snov.io] Executing vector against target inputs
+[19:03:26.646] [INFO] [PyPI] Executing vector against target inputs
+[19:03:26.650] [INFO] [Job Board Scraper] Executing vector against target inputs
+[19:03:26.653] [INFO] [theHarvester] Executing vector against target inputs
+[19:03:26.655] [INFO] [Bugcrowd/HackerOne] Executing vector against target inputs
+[19:03:26.657] [INFO] [Holehe] Executing vector against target inputs
+[19:03:26.657] [INFO] [WAFW00F] Executing vector against target inputs
+[19:03:26.659] [INFO] [Common Crawl] Executing vector against target inputs
+[19:03:26.661] [INFO] [Legal Gazette] Executing vector against target inputs
+[19:03:26.662] [INFO] [Twint Archive] Executing vector against target inputs
+[19:03:26.664] [INFO] [Crunchbase] Executing vector against target inputs
+[19:03:26.667] [INFO] [Patent Office] Executing vector against target inputs
+[19:03:27.458] [SUCCESS] [Snov.io] Dumped result.json & evidence.csv (1 signals, 0.812s)
+[19:03:27.460] [SUCCESS] [PyPI] Dumped result.json & evidence.csv (1 signals, 0.813s)
+[19:03:27.461] [SUCCESS] [Job Board Scraper] Dumped result.json & evidence.csv (1 signals, 0.81s)
+[19:03:27.463] [SUCCESS] [Bugcrowd/HackerOne] Dumped result.json & evidence.csv (1 signals, 0.807s)
+[19:03:27.464] [SUCCESS] [Holehe] Dumped result.json & evidence.csv (1 signals, 0.807s)
+[19:03:27.468] [SUCCESS] [WAFW00F] Dumped result.json & evidence.csv (1 signals, 0.809s)
+[19:03:27.470] [SUCCESS] [Common Crawl] Dumped result.json & evidence.csv (1 signals, 0.808s)
+[19:03:27.473] [SUCCESS] [Legal Gazette] Dumped result.json & evidence.csv (1 signals, 0.809s)
+[19:03:27.475] [SUCCESS] [Twint Archive] Dumped result.json & evidence.csv (1 signals, 0.812s)
+[19:03:27.476] [SUCCESS] [Crunchbase] Dumped result.json & evidence.csv (1 signals, 0.811s)
+[19:03:27.479] [SUCCESS] [Patent Office] Dumped result.json & evidence.csv (1 signals, 0.809s)
+[19:03:27.480] [INFO] [ZoomInfo Proxy] Executing vector against target inputs
+[19:03:27.480] [INFO] [Docker Hub] Executing vector against target inputs
+[19:03:27.483] [INFO] [Sherlock] Executing vector against target inputs
+[19:03:27.484] [INFO] [Sublist3r] Executing vector against target inputs
+[19:03:27.485] [INFO] [Packagist] Executing vector against target inputs
+[19:03:27.486] [INFO] [Blackbird] Executing vector against target inputs
+[19:03:27.486] [INFO] [Shodan] Executing vector against target inputs
+[19:03:27.487] [INFO] [Wikipedia/Wikidata] Executing vector against target inputs
+[19:03:27.487] [INFO] [GitHub] Executing vector against target inputs
+[19:03:27.488] [INFO] [Clearbit] Executing vector against target inputs
+[19:03:27.488] [INFO] [God's Eye AI Synthesis] Executing vector against target inputs
+[19:03:28.525] [SUCCESS] [ZoomInfo Proxy] Dumped result.json & evidence.csv (1 signals, 1.043s)
+[19:03:28.529] [SUCCESS] [Docker Hub] Dumped result.json & evidence.csv (1 signals, 1.046s)
+[19:03:28.531] [SUCCESS] [Sherlock] Dumped result.json & evidence.csv (1 signals, 1.046s)
+[19:03:28.534] [SUCCESS] [Sublist3r] Dumped result.json & evidence.csv (1 signals, 1.048s)
+[19:03:28.539] [SUCCESS] [Packagist] Dumped result.json & evidence.csv (1 signals, 1.05s)
+[19:03:28.541] [SUCCESS] [Blackbird] Dumped result.json & evidence.csv (1 signals, 1.053s)
+[19:03:28.544] [SUCCESS] [Shodan] Dumped result.json & evidence.csv (1 signals, 1.055s)
+[19:03:28.548] [SUCCESS] [Clearbit] Dumped result.json & evidence.csv (1 signals, 1.058s)
+[19:03:28.553] [SUCCESS] [God's Eye AI Synthesis] Dumped result.json & evidence.csv (1 signals, 1.062s)
+[19:03:28.555] [INFO] [Apollo] Executing vector against target inputs
+[19:03:28.556] [INFO] [Hacker News] Executing vector against target inputs
+[19:03:28.557] [INFO] [Maigret] Executing vector against target inputs
+[19:03:28.558] [INFO] [Amass] Executing vector against target inputs
+[19:03:28.560] [INFO] [NewsAPI] Executing vector against target inputs
+[19:03:28.562] [INFO] [H8mail] Executing vector against target inputs
+[19:03:28.563] [INFO] [Censys] Executing vector against target inputs
+[19:03:28.564] [INFO] [X/Twitter Public] Executing vector against target inputs
+[19:03:28.567] [INFO] [GitLab] Executing vector against target inputs
+[19:03:28.977] [SUCCESS] [Apollo] Dumped result.json & evidence.csv (1 signals, 0.42s)
+[19:03:28.978] [SUCCESS] [Maigret] Dumped result.json & evidence.csv (1 signals, 0.42s)
+[19:03:28.980] [SUCCESS] [Amass] Dumped result.json & evidence.csv (1 signals, 0.421s)
+[19:03:28.983] [SUCCESS] [NewsAPI] Dumped result.json & evidence.csv (1 signals, 0.42s)
+[19:03:28.984] [SUCCESS] [H8mail] Dumped result.json & evidence.csv (1 signals, 0.422s)
+[19:03:28.985] [SUCCESS] [Censys] Dumped result.json & evidence.csv (1 signals, 0.422s)
+[19:03:28.987] [SUCCESS] [X/Twitter Public] Dumped result.json & evidence.csv (1 signals, 0.421s)
+[19:03:28.989] [SUCCESS] [GitLab] Dumped result.json & evidence.csv (1 signals, 0.42s)
+[19:03:28.989] [INFO] [Hunter] Executing vector against target inputs
+[19:03:28.990] [INFO] [OpenCorporates] Executing vector against target inputs
+[19:03:28.990] [INFO] [StackOverflow] Executing vector against target inputs
+[19:03:28.990] [INFO] [SocialScan] Executing vector against target inputs
+[19:03:28.992] [INFO] [DNSRecord] Executing vector against target inputs
+[19:03:28.994] [INFO] [Google News RSS] Executing vector against target inputs
+[19:03:28.994] [INFO] [Metagoofil] Executing vector against target inputs
+[19:03:28.994] [INFO] [SecurityTrails] Executing vector against target inputs
+[19:03:30.147] [SUCCESS] [Hunter] Dumped result.json & evidence.csv (1 signals, 1.156s)
+[19:03:30.151] [SUCCESS] [StackOverflow] Dumped result.json & evidence.csv (1 signals, 1.157s)
+[19:03:30.153] [SUCCESS] [SocialScan] Dumped result.json & evidence.csv (1 signals, 1.161s)
+[19:03:30.155] [SUCCESS] [Metagoofil] Dumped result.json & evidence.csv (1 signals, 1.16s)
+[19:03:30.156] [SUCCESS] [SecurityTrails] Dumped result.json & evidence.csv (1 signals, 1.161s)
+[19:03:30.157] [INFO] [Reddit] Executing vector against target inputs
+[19:03:30.158] [INFO] [NPMJS] Executing vector against target inputs
+[19:03:30.159] [INFO] [SEC EDGAR] Executing vector against target inputs
+[19:03:30.161] [INFO] [SpiderFoot] Executing vector against target inputs
+[19:03:30.161] [INFO] [Pastebin] Executing vector against target inputs
+[19:03:30.168] [SUCCESS] [Reddit] Dumped result.json & evidence.csv (1 signals, 0.008s)
+[19:03:30.171] [SUCCESS] [NPMJS] Dumped result.json & evidence.csv (1 signals, 0.011s)
+[19:03:30.173] [SUCCESS] [SEC EDGAR] Dumped result.json & evidence.csv (1 signals, 0.012s)
+[19:03:30.175] [SUCCESS] [SpiderFoot] Dumped result.json & evidence.csv (1 signals, 0.012s)
+[19:03:30.178] [SUCCESS] [Pastebin] Dumped result.json & evidence.csv (1 signals, 0.015s)
+[19:03:30.179] [INFO] [Wayback Machine] Executing vector against target inputs
+[19:03:30.180] [INFO] [GHunt] Executing vector against target inputs
+[19:03:30.181] [INFO] [Fierce] Executing vector against target inputs
+[19:03:30.182] [INFO] [SkyMem] Executing vector against target inputs
+[19:03:30.184] [INFO] [BuiltWith] Executing vector against target inputs
+[19:03:30.595] [SUCCESS] [GHunt] Dumped result.json & evidence.csv (1 signals, 0.414s)
+[19:03:30.597] [SUCCESS] [Fierce] Dumped result.json & evidence.csv (1 signals, 0.415s)
+[19:03:30.599] [SUCCESS] [SkyMem] Dumped result.json & evidence.csv (1 signals, 0.415s)
+[19:03:30.601] [SUCCESS] [BuiltWith] Dumped result.json & evidence.csv (1 signals, 0.415s)
+[19:03:30.649] [SUCCESS] [GitHub] Dumped result.json & evidence.csv (1 signals, 3.159s)
+[19:03:30.660] [SUCCESS] [DNSRecord] Dumped result.json & evidence.csv (2 signals, 1.667s)
+[19:03:30.700] [SUCCESS] [Google News RSS] Dumped result.json & evidence.csv (2 signals, 1.705s)
+[19:03:30.709] [SUCCESS] [Wikipedia/Wikidata] Dumped result.json & evidence.csv (1 signals, 3.218s)
+[19:03:31.012] [SUCCESS] [Hacker News] Dumped result.json & evidence.csv (1 signals, 2.453s)
+[19:03:31.254] [SUCCESS] [OpenCorporates] Dumped result.json & evidence.csv (1 signals, 2.261s)
+[19:03:31.512] [SUCCESS] [Wayback Machine] Dumped result.json & evidence.csv (1 signals, 1.331s)
+[19:03:34.761] [SUCCESS] [theHarvester] Dumped result.json & evidence.csv (1 signals, 8.106s)
+[19:03:34.778] [INFO] [Entity Resolution] Fusing 52 multi-vector signals into identity clusters
+[19:03:34.787] [INFO] [Claim Verifier] Deduplicating signals and auditing claims against cross-source provenance
+[19:03:34.820] [SUCCESS] [Lead Synthesis] Extracted 1 high-confidence executive leads
+[19:03:34.840] [SUCCESS] [Omni-Grid Controller] Pipeline completed successfully. All artifacts and CSV ledgers ready.

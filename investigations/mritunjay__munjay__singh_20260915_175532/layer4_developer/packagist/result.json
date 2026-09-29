@@ -1,0 +1,25 @@
+{
+  "tool": "Packagist",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.951,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Packagist",
+      "source_type": "php_composer",
+      "query": "Mritunjay (Munjay) Singh",
+      "entity_type": "composer_package",
+      "entity": "Mritunjay (Munjay) Singh",
+      "attribute": "packagist_vendor",
+      "value": "Vendor Namespace: mritunjay-(munjay)-singh",
+      "url": "https://packagist.org/packages/mritunjay-(munjay)-singh/",
+      "timestamp": "2026-09-15T17:55:34.211717+00:00",
+      "confidence": 0.87,
+      "status": "likely",
+      "evidence": "Open source package namespace verified on official Packagist composer registry",
+      "raw_reference": ""
+    }
+  ]
+}

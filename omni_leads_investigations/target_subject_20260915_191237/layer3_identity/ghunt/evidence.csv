@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+GHunt,layer3_identity,contact@targetcorp.com,google_workspace_active,Active Google Workspace Enterprise Tenant,0.94,verified,https://admin.google.com,2026-09-15T19:12:39.923979+00:00

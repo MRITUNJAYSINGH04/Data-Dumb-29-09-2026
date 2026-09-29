@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+GitLab,layer4_developer,techteam,gitlab_presence,GitLab Contributor (@techteam),0.86,likely,https://gitlab.com/techteam,2026-09-15T19:12:38.312407+00:00

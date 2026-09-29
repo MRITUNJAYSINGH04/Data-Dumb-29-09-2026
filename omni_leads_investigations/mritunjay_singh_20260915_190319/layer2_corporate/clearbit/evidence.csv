@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Clearbit,layer2_corporate,acme.ai,company_firmographics,B2B SaaS Enterprise (51-200 employees),0.94,verified,https://logo.clearbit.com/acme.ai,2026-09-15T19:03:28.519324+00:00

@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Amass,layer1_infrastructure,target.io,asn_routing,AS13335 (Cloudflare Global Network),0.94,verified,https://bgp.he.net/dns/target.io,2026-09-15T18:54:33.536707+00:00

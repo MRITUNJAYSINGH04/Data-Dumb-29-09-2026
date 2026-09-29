@@ -1,0 +1,25 @@
+{
+  "tool": "StackOverflow",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.888,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "StackOverflow",
+      "source_type": "developer_expertise",
+      "query": "Mritunjay Singh",
+      "entity_type": "developer_reputation",
+      "entity": "Mritunjay Singh",
+      "attribute": "top_technical_tags",
+      "value": "Python, FastAPI, TypeScript, React, Docker",
+      "url": "https://stackoverflow.com/users/story/Mritunjay Singh",
+      "timestamp": "2026-09-15T17:40:12.650964+00:00",
+      "confidence": 0.88,
+      "status": "verified",
+      "evidence": "Public developer reputation and accepted answers demonstrate mastery in backend architecture",
+      "raw_reference": ""
+    }
+  ]
+}

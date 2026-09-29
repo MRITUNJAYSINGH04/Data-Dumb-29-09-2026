@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Job Board Scraper,layer2_corporate,Acme AI,open_positions,"Active Engineering Hiring: Senior AI Engineer, DevOps Architect",0.89,verified,https://company.com/careers,2026-09-15T18:54:32.001821+00:00

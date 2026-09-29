@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Packagist,layer4_developer,acme,packagist_vendor,Vendor Namespace: acme,0.87,likely,https://packagist.org/packages/acme/,2026-09-15T19:12:37.998931+00:00

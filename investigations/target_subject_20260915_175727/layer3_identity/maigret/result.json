@@ -1,0 +1,25 @@
+{
+  "tool": "Maigret",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.468,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Maigret",
+      "source_type": "profile_dossier",
+      "query": "targetuser",
+      "entity_type": "community_presence",
+      "entity": "targetuser",
+      "attribute": "community_profile",
+      "value": "Kaggle Contributor (@targetuser)",
+      "url": "https://www.kaggle.com/targetuser",
+      "timestamp": "2026-09-15T17:57:28.903999+00:00",
+      "confidence": 0.85,
+      "status": "likely",
+      "evidence": "Public data science and AI community account verified for @targetuser",
+      "raw_reference": ""
+    }
+  ]
+}

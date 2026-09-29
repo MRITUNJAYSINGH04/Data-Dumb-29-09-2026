@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Legal Gazette,layer5_media_synthesis,Acme AI,legal_compliance_status,Good Standing / Zero Enforcement Sanctions,0.97,verified,https://www.federalregister.gov/documents/search?conditions%5Bterm%5D=Acme+AI,2026-09-15T19:03:27.456098+00:00

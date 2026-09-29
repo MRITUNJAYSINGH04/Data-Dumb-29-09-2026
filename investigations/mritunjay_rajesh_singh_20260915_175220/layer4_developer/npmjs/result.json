@@ -1,0 +1,25 @@
+{
+  "tool": "NPMJS",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.012,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "NPMJS",
+      "source_type": "package_registry",
+      "query": "Christ College Pune",
+      "entity_type": "npm_scope",
+      "entity": "Christ College Pune",
+      "attribute": "published_packages",
+      "value": "NPM Maintainer Scope: @christ-college-pune",
+      "url": "https://www.npmjs.com/~christ-college-pune",
+      "timestamp": "2026-09-15T17:52:22.949538+00:00",
+      "confidence": 0.89,
+      "status": "verified",
+      "evidence": "Public NPM packages published under maintainer authority @christ-college-pune",
+      "raw_reference": ""
+    }
+  ]
+}

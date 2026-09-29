@@ -1,0 +1,25 @@
+{
+  "tool": "PyPI",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.837,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "PyPI",
+      "source_type": "python_packages",
+      "query": "myself_immortal",
+      "entity_type": "python_package",
+      "entity": "myself_immortal",
+      "attribute": "pypi_releases",
+      "value": "PyPI Author Profile: myself_immortal",
+      "url": "https://pypi.org/user/myself_immortal/",
+      "timestamp": "2026-09-15T17:52:23.364767+00:00",
+      "confidence": 0.91,
+      "status": "verified",
+      "evidence": "Official Python Package Index author and release distribution profile verified",
+      "raw_reference": ""
+    }
+  ]
+}

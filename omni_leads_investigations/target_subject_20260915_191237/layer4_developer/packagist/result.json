@@ -1,0 +1,25 @@
+{
+  "tool": "Packagist",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.728,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Packagist",
+      "source_type": "php_composer",
+      "query": "acme",
+      "entity_type": "composer_package",
+      "entity": "acme",
+      "attribute": "packagist_vendor",
+      "value": "Vendor Namespace: acme",
+      "url": "https://packagist.org/packages/acme/",
+      "timestamp": "2026-09-15T19:12:37.998931+00:00",
+      "confidence": 0.87,
+      "status": "likely",
+      "evidence": "Open source package namespace verified on official Packagist composer registry",
+      "raw_reference": ""
+    }
+  ]
+}

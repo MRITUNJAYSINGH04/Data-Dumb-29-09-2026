@@ -1,0 +1,25 @@
+{
+  "tool": "NewsAPI",
+  "layer": "layer5_media_synthesis",
+  "layer_display": "Layer 5: Media, News, & Synthesis",
+  "status": "success",
+  "execution_time_seconds": 0.419,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "NewsAPI",
+      "source_type": "global_news",
+      "query": "Tech Innovator",
+      "entity_type": "press_coverage",
+      "entity": "Tech Innovator",
+      "attribute": "business_press_headline",
+      "value": "Enterprise expansion and leadership spotlight on Tech Innovator",
+      "url": "https://newsapi.org/v2/everything?q=Tech+Innovator",
+      "timestamp": "2026-09-15T17:57:30.294608+00:00",
+      "confidence": 0.91,
+      "status": "verified",
+      "evidence": "Global business journalism mentions focus on strategic market execution and technical growth for Tech Innovator",
+      "raw_reference": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tool": "X/Twitter Public",
+  "layer": "layer5_media_synthesis",
+  "layer_display": "Layer 5: Media, News, & Synthesis",
+  "status": "success",
+  "execution_time_seconds": 0.421,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "X/Twitter Public",
+      "source_type": "sentiment_discourse",
+      "query": "Acme AI",
+      "entity_type": "social_sentiment",
+      "entity": "Acme AI",
+      "attribute": "brand_reputation",
+      "value": "High Positive Sentiment (AI & Engineering Community)",
+      "url": "https://twitter.com/search?q=Acme+AI",
+      "timestamp": "2026-09-15T19:03:28.974297+00:00",
+      "confidence": 0.86,
+      "status": "likely",
+      "evidence": "Public social discourse highlights technical reliability and developer enthusiasm for Acme AI",
+      "raw_reference": ""
+    }
+  ]
+}

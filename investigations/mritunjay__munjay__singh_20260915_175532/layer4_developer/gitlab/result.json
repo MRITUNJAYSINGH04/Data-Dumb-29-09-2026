@@ -1,0 +1,25 @@
+{
+  "tool": "GitLab",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.508,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "GitLab",
+      "source_type": "code_intelligence",
+      "query": "Mritunjay (Munjay) Singh",
+      "entity_type": "gitlab_user",
+      "entity": "Mritunjay (Munjay) Singh",
+      "attribute": "gitlab_presence",
+      "value": "GitLab Contributor (@Mritunjay (Munjay) Singh)",
+      "url": "https://gitlab.com/Mritunjay (Munjay) Singh",
+      "timestamp": "2026-09-15T17:55:33.253287+00:00",
+      "confidence": 0.86,
+      "status": "likely",
+      "evidence": "Public GitLab project maintainer and pipeline activity indexed for @Mritunjay (Munjay) Singh",
+      "raw_reference": ""
+    }
+  ]
+}

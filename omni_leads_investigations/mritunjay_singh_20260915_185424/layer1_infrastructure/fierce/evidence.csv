@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Fierce,layer1_infrastructure,target.com,network_block,104.21.0.0/16 Edge Ingress,0.86,likely,https://target.com,2026-09-15T18:54:34.878103+00:00

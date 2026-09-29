@@ -1,0 +1,25 @@
+{
+  "tool": "Sherlock",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.948,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Sherlock",
+      "source_type": "username_recon",
+      "query": "Mritunjay (Munjay) Singh",
+      "entity_type": "user_profile",
+      "entity": "Mritunjay (Munjay) Singh",
+      "attribute": "profile_handle",
+      "value": "DockerHub Profile (@Mritunjay (Munjay) Singh)",
+      "url": "https://hub.docker.com/u/Mritunjay (Munjay) Singh",
+      "timestamp": "2026-09-15T17:55:33.276735+00:00",
+      "confidence": 0.88,
+      "status": "verified",
+      "evidence": "Active public container maintainer profile verified for @Mritunjay (Munjay) Singh",
+      "raw_reference": ""
+    }
+  ]
+}

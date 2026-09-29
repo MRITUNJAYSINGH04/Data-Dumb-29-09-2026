@@ -1,0 +1,25 @@
+{
+  "tool": "Crunchbase",
+  "layer": "layer2_corporate",
+  "layer_display": "Layer 2: Corporate & Business Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.463,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Crunchbase",
+      "source_type": "funding_intelligence",
+      "query": "Target Venture",
+      "entity_type": "venture_capital",
+      "entity": "Target Venture",
+      "attribute": "funding_stage",
+      "value": "Series A / Growth ($12.5M Estimated)",
+      "url": "https://www.crunchbase.com/organization/target-venture",
+      "timestamp": "2026-09-15T17:54:20.271420+00:00",
+      "confidence": 0.88,
+      "status": "likely",
+      "evidence": "Public venture registry records institutional backing and active expansion for Target Venture",
+      "raw_reference": ""
+    }
+  ]
+}

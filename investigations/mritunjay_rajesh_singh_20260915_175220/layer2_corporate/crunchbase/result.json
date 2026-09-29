@@ -1,0 +1,25 @@
+{
+  "tool": "Crunchbase",
+  "layer": "layer2_corporate",
+  "layer_display": "Layer 2: Corporate & Business Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.009,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Crunchbase",
+      "source_type": "funding_intelligence",
+      "query": "Christ College Pune",
+      "entity_type": "venture_capital",
+      "entity": "Christ College Pune",
+      "attribute": "funding_stage",
+      "value": "Series A / Growth ($12.5M Estimated)",
+      "url": "https://www.crunchbase.com/organization/christ-college-pune",
+      "timestamp": "2026-09-15T17:52:22.968562+00:00",
+      "confidence": 0.88,
+      "status": "likely",
+      "evidence": "Public venture registry records institutional backing and active expansion for Christ College Pune",
+      "raw_reference": ""
+    }
+  ]
+}

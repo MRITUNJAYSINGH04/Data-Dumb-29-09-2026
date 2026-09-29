@@ -1,0 +1,25 @@
+{
+  "tool": "GitHub",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 1.832,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "GitHub",
+      "source_type": "code_intelligence",
+      "query": "developer",
+      "entity_type": "github_user",
+      "entity": "developerrahulofficial",
+      "attribute": "github_handle",
+      "value": "@developerrahulofficial",
+      "url": "https://github.com/developerrahulofficial",
+      "timestamp": "2026-09-15T17:57:01.526779+00:00",
+      "confidence": 0.95,
+      "status": "verified",
+      "evidence": "Active public GitHub profile verified with public open-source contributions",
+      "raw_reference": ""
+    }
+  ]
+}

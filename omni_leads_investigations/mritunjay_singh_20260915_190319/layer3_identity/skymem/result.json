@@ -1,0 +1,25 @@
+{
+  "tool": "SkyMem",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.415,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "SkyMem",
+      "source_type": "email_directory",
+      "query": "acme.ai",
+      "entity_type": "corporate_directory",
+      "entity": "acme.ai",
+      "attribute": "public_email_volume",
+      "value": "15+ Public Corporate Contacts Indexed",
+      "url": "https://www.skymem.info/srch?q=acme.ai",
+      "timestamp": "2026-09-15T19:03:30.588284+00:00",
+      "confidence": 0.9,
+      "status": "verified",
+      "evidence": "Public web crawl records confirm active business email communication on domain acme.ai",
+      "raw_reference": ""
+    }
+  ]
+}

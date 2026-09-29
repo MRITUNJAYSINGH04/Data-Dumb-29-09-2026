@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+StackOverflow,layer4_developer,lead_engineer,top_technical_tags,"Python, FastAPI, TypeScript, React, Docker",0.88,verified,https://stackoverflow.com/users/story/lead_engineer,2026-09-15T19:12:39.136259+00:00

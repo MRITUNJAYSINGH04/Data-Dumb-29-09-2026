@@ -1,0 +1,25 @@
+{
+  "tool": "Hacker News",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 2.126,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Hacker News",
+      "source_type": "tech_community",
+      "query": "Acme AI",
+      "entity_type": "hacker_news_story",
+      "entity": "Acme AI",
+      "attribute": "hn_community_mention",
+      "value": "Show HN: CodeRadius, map and govern multi repo architectures",
+      "url": "https://news.ycombinator.com/item?id=48830828",
+      "timestamp": "2026-09-15T18:54:35.303655+00:00",
+      "confidence": 0.93,
+      "status": "verified",
+      "evidence": "Y Combinator community discussion thread with 0 comments: 'Show HN: CodeRadius, map and govern multi repo architectures'",
+      "raw_reference": ""
+    }
+  ]
+}

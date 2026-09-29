@@ -1,0 +1,25 @@
+{
+  "tool": "Bugcrowd/HackerOne",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.947,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Bugcrowd/HackerOne",
+      "source_type": "bug_bounty_hall_of_fame",
+      "query": "Enterprise Target",
+      "entity_type": "security_maturity",
+      "entity": "Enterprise Target",
+      "attribute": "responsible_disclosure",
+      "value": "Public Vulnerability Disclosure Policy (VDP) Present",
+      "url": "https://hackerone.com/enterprisetarget",
+      "timestamp": "2026-09-15T17:55:33.276735+00:00",
+      "confidence": 0.9,
+      "status": "verified",
+      "evidence": "Corporate security posture confirms active security vulnerability intake and responsible disclosure channel",
+      "raw_reference": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tool": "Snov.io",
+  "layer": "layer2_corporate",
+  "layer_display": "Layer 2: Corporate & Business Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.761,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Snov.io",
+      "source_type": "prospect_intelligence",
+      "query": "acme.ai",
+      "entity_type": "prospect_matrix",
+      "entity": "acme.ai",
+      "attribute": "verified_executive_count",
+      "value": "8 Leadership Contacts Cataloged",
+      "url": "https://snov.io/email-finder/acme.ai",
+      "timestamp": "2026-09-15T17:37:31.409296+00:00",
+      "confidence": 0.87,
+      "status": "likely",
+      "evidence": "Public domain indexing cataloged key decision-maker titles across Engineering and Product on acme.ai",
+      "raw_reference": ""
+    }
+  ]
+}

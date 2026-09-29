@@ -1,0 +1,25 @@
+{
+  "tool": "BuiltWith",
+  "layer": "layer2_corporate",
+  "layer_display": "Layer 2: Corporate & Business Intelligence",
+  "status": "success",
+  "execution_time_seconds": 0.015,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "BuiltWith",
+      "source_type": "tech_stack",
+      "query": "acme.ai",
+      "entity_type": "tech_stack",
+      "entity": "acme.ai",
+      "attribute": "detected_technologies",
+      "value": "Next.js, React, Tailwind CSS, FastAPI / Python, PostgreSQL, Cloudflare CDN",
+      "url": "https://builtwith.com/acme.ai",
+      "timestamp": "2026-09-15T19:12:40.843331+00:00",
+      "confidence": 0.92,
+      "status": "verified",
+      "evidence": "Public HTML scripts, headers, and asset bundles detect: Next.js, React, Tailwind CSS, FastAPI / Python, PostgreSQL, Cloudflare CDN",
+      "raw_reference": ""
+    }
+  ]
+}

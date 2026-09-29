@@ -1,0 +1,40 @@
+{
+  "tool": "DNSRecord",
+  "layer": "layer1_infrastructure",
+  "layer_display": "Layer 1: Infrastructure & Perimeter Recon",
+  "status": "success",
+  "execution_time_seconds": 2.261,
+  "findings_count": 2,
+  "signals": [
+    {
+      "source": "DNSRecord",
+      "source_type": "authoritative_dns",
+      "query": "target.com",
+      "entity_type": "dns_record",
+      "entity": "target.com",
+      "attribute": "mail_exchanger",
+      "value": "5 mxa-0020ab02.gslb.pphosted.com.",
+      "url": "https://dns.google/resolve?name=target.com&type=MX",
+      "timestamp": "2026-09-15T17:52:24.307117+00:00",
+      "confidence": 0.99,
+      "status": "verified",
+      "evidence": "Authoritative RFC DNS Mail Exchanger: 5 mxa-0020ab02.gslb.pphosted.com.",
+      "raw_reference": ""
+    },
+    {
+      "source": "DNSRecord",
+      "source_type": "authoritative_dns",
+      "query": "target.com",
+      "entity_type": "dns_record",
+      "entity": "target.com",
+      "attribute": "mail_exchanger",
+      "value": "5 mxb-0020ab02.gslb.pphosted.com.",
+      "url": "https://dns.google/resolve?name=target.com&type=MX",
+      "timestamp": "2026-09-15T17:52:24.307117+00:00",
+      "confidence": 0.99,
+      "status": "verified",
+      "evidence": "Authoritative RFC DNS Mail Exchanger: 5 mxb-0020ab02.gslb.pphosted.com.",
+      "raw_reference": ""
+    }
+  ]
+}

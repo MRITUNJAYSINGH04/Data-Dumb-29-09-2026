@@ -1,0 +1,25 @@
+{
+  "tool": "GitHub",
+  "layer": "layer4_developer",
+  "layer_display": "Layer 4: Developer & Code Intelligence",
+  "status": "success",
+  "execution_time_seconds": 2.843,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "GitHub",
+      "source_type": "code_intelligence",
+      "query": "Mritunjay (Munjay) Singh",
+      "entity_type": "github_user",
+      "entity": "Mritunjay (Munjay) Singh",
+      "attribute": "github_handle",
+      "value": "@mritunjay(munjay)singh",
+      "url": "https://github.com/mritunjay(munjay)singh",
+      "timestamp": "2026-09-15T17:55:37.091633+00:00",
+      "confidence": 0.88,
+      "status": "likely",
+      "evidence": "Primary open source developer handle @Mritunjay (Munjay) Singh",
+      "raw_reference": ""
+    }
+  ]
+}

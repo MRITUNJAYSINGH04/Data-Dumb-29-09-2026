@@ -1,0 +1,25 @@
+{
+  "tool": "GHunt",
+  "layer": "layer3_identity",
+  "layer_display": "Layer 3: Professional & Identity Recon",
+  "status": "success",
+  "execution_time_seconds": 0.005,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "GHunt",
+      "source_type": "google_osint",
+      "query": "contact@targetcorp.com",
+      "entity_type": "google_account",
+      "entity": "contact@targetcorp.com",
+      "attribute": "google_workspace_active",
+      "value": "Active Google Workspace Enterprise Tenant",
+      "url": "https://admin.google.com",
+      "timestamp": "2026-09-15T17:40:14.188356+00:00",
+      "confidence": 0.94,
+      "status": "verified",
+      "evidence": "Corporate domain utilizes Google Workspace infrastructure with SPF/DKIM verification",
+      "raw_reference": ""
+    }
+  ]
+}

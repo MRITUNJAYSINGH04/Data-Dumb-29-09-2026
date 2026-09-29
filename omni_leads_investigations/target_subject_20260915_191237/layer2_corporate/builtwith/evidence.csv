@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+BuiltWith,layer2_corporate,acme.ai,detected_technologies,"Next.js, React, Tailwind CSS, FastAPI / Python, PostgreSQL, Cloudflare CDN",0.92,verified,https://builtwith.com/acme.ai,2026-09-15T19:12:40.843331+00:00

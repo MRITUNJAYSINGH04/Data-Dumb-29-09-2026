@@ -1,0 +1,25 @@
+{
+  "tool": "Reddit",
+  "layer": "layer5_media_synthesis",
+  "layer_display": "Layer 5: Media, News, & Synthesis",
+  "status": "success",
+  "execution_time_seconds": 0.453,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "Reddit",
+      "source_type": "developer_sentiment",
+      "query": "acme.ai",
+      "entity_type": "community_review",
+      "entity": "acme.ai",
+      "attribute": "developer_discussion",
+      "value": "Featured in r/MachineLearning and r/webdev",
+      "url": "https://www.reddit.com/search.json?q=acme.ai",
+      "timestamp": "2026-09-15T19:12:40.378983+00:00",
+      "confidence": 0.89,
+      "status": "verified",
+      "evidence": "Authentic peer developer recommendations and architectural discussions indexed on Reddit regarding acme.ai",
+      "raw_reference": ""
+    }
+  ]
+}

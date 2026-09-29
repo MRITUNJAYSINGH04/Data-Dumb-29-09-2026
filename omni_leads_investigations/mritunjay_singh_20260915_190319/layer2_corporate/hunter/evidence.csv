@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Hunter,layer2_corporate,acme.ai,corporate_email_pattern,{first}.{last}@acme.ai,0.96,verified,https://hunter.io/search/acme.ai,2026-09-15T19:03:28.995671+00:00

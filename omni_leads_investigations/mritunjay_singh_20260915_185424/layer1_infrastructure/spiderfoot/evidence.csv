@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+SpiderFoot,layer1_infrastructure,Acme AI,perimeter_footprint,Mapped external asset footprint for Acme AI,0.88,likely,https://www.spiderfoot.net/lookup/Acme AI,2026-09-15T18:54:34.878103+00:00

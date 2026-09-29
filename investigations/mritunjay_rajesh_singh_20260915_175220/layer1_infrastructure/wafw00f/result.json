@@ -1,0 +1,25 @@
+{
+  "tool": "WAFW00F",
+  "layer": "layer1_infrastructure",
+  "layer_display": "Layer 1: Infrastructure & Perimeter Recon",
+  "status": "success",
+  "execution_time_seconds": 0.837,
+  "findings_count": 1,
+  "signals": [
+    {
+      "source": "WAFW00F",
+      "source_type": "waf_fingerprinting",
+      "query": "target.com",
+      "entity_type": "security_infrastructure",
+      "entity": "target.com",
+      "attribute": "edge_protection",
+      "value": "Cloudflare Enterprise WAF / DDoS Mitigation",
+      "url": "https://target.com",
+      "timestamp": "2026-09-15T17:52:23.812786+00:00",
+      "confidence": 0.95,
+      "status": "verified",
+      "evidence": "Edge headers confirm active reverse proxy and protection: Cloudflare Enterprise WAF / DDoS Mitigation",
+      "raw_reference": ""
+    }
+  ]
+}

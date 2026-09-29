@@ -1,0 +1,2 @@
+Tool,Layer,Entity,Attribute,Value,Confidence,Status,Provenance URL,Timestamp
+Bugcrowd/HackerOne,layer4_developer,Enterprise Target,responsible_disclosure,Public Vulnerability Disclosure Policy (VDP) Present,0.9,verified,https://hackerone.com/enterprisetarget,2026-09-15T19:12:37.510873+00:00

@@ -1,0 +1,40 @@
+{
+  "tool": "Google News RSS",
+  "layer": "layer5_media_synthesis",
+  "layer_display": "Layer 5: Media, News, & Synthesis",
+  "status": "success",
+  "execution_time_seconds": 2.803,
+  "findings_count": 2,
+  "signals": [
+    {
+      "source": "Google News RSS",
+      "source_type": "realtime_press",
+      "query": "Technology Leader",
+      "entity_type": "news_syndication",
+      "entity": "Technology Leader",
+      "attribute": "realtime_news",
+      "value": "Rutgers and RWJBarnabas Health to Launch Innovation Hub, Powered by Amazon Web Services - ",
+      "url": "",
+      "timestamp": "2026-09-15T19:12:41.935326+00:00",
+      "confidence": 0.94,
+      "status": "verified",
+      "evidence": "Published syndication article: Rutgers and RWJBarnabas Health to Launch Innovation Hub, Powered by Amazon Web Services - RWJBarnabas Health",
+      "raw_reference": ""
+    },
+    {
+      "source": "Google News RSS",
+      "source_type": "realtime_press",
+      "query": "Technology Leader",
+      "entity_type": "news_syndication",
+      "entity": "Technology Leader",
+      "attribute": "realtime_news",
+      "value": "Veteran Technology Leader\u2019s New Book Reveals the Real Competitive Advantage for MSPs in th",
+      "url": "",
+      "timestamp": "2026-09-15T19:12:41.936335+00:00",
+      "confidence": 0.94,
+      "status": "verified",
+      "evidence": "Published syndication article: Veteran Technology Leader\u2019s New Book Reveals the Real Competitive Advantage for MSPs in the Age of AI - The National Law Review",
+      "raw_reference": ""
+    }
+  ]
+}
